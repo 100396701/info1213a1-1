@@ -14,8 +14,18 @@ hr {
   width: 75%;
   align-items: center;
   table-layout: fixed;
-
 }
+.table2 {
+  width: 25%;
+  align-items: center;
+  table-layout: fixed;
+}
+.table3 {
+  width: 30%;
+  align-items: center;
+  table-layout: auto;
+}
+
 h1 {
   color: darkgreen ;
 }
