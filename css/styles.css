@@ -10,6 +10,12 @@ hr {
   border-width: 5px;
   width: 10%;
 }
+.table1 {
+  width: 75%;
+  align-items: center;
+  table-layout: fixed;
+
+}
 h1 {
   color: darkgreen ;
 }
