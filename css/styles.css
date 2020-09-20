@@ -1,6 +1,5 @@
 body {
-  background-color:azure;
-
+  background-color: azure;
 }
 
 hr {
@@ -10,28 +9,44 @@ hr {
   border-width: 5px;
   width: 10%;
 }
+
 .table1 {
   width: 75%;
   align-items: center;
   table-layout: fixed;
+  font-family: serif;
+  font-style: oblique;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 .table2 {
   width: 25%;
   align-items: center;
   table-layout: fixed;
 }
+
 .table3 {
   width: 30%;
   align-items: center;
   table-layout: auto;
 }
 
+#div1 {
+  border: 5px solid seagreen;
+  padding: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
 h1 {
-  color: darkgreen ;
+  color: darkgreen;
 }
+
 h2 {
-  color: seagreen ;
+  color: seagreen;
 }
+
 h3 {
-  color: green ;
+  color: green;
 }
