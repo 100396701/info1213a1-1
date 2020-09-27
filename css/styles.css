@@ -13,6 +13,7 @@ hr {
 
 h1 {
   color: darkgreen;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h2 {
@@ -24,26 +25,41 @@ h3 {
 }
 
 /******************CLASS SELECTORS******************/
-.div1 {
-  border: 5px solid seagreen;
-  padding: 10px;
-  margin-left: 100px;
-  margin-right: 100px;
+/*.self {
+position:relative;
+left: 20px;
+}*/
+.header {
+  text-align: center;
+  position: relative;
+  width: 30%;
+  margin: 0 auto;
 }
 
-.skills {
+.intro {
+  text-align: left;
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.skillborder {
+  border: 3px solid seagreen;
+  padding: 10px;
+  margin: 0 5% 1.5%;
+}
+
+.centerhead {
   font-size: 25px;
   text-align: center;
 }
 
 .table1 {
   width: 75%;
-  align-items: center;
+  margin: auto;
   table-layout: fixed;
   font-family: serif;
   font-style: oblique;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .table2 {
@@ -56,6 +72,10 @@ h3 {
   width: 30%;
   align-items: center;
   table-layout: auto;
+}
+
+.bottom-container {
+  text-align: center;
 }
 
 /******************ID SELECTORS******************/
